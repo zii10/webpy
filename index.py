@@ -41,9 +41,6 @@ def account():
     else:
         return render_template("account.html")
 
-@app.route("/math") 
-def about(): 
-    return render_template("math.html")
 
 if __name__ == "__main__":
     app.run()
